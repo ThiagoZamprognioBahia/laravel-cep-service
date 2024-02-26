@@ -10,7 +10,7 @@ API para consumir e tratar dados da API ViaCEP
 
 ## Configuração do Ambiente
 
-###Clone o repositório 
+### Clone o repositório 
 
 git clone https://github.com/ThiagoZamprognioBahia/laravel-cep-service
 
