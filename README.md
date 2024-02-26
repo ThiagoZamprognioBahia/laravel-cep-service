@@ -10,7 +10,19 @@ API para consumir e tratar dados da API ViaCEP
 
 ## Configuração do Ambiente
 
-Clone o repositório e instale as dependências:
+###Clone o repositório 
 
-```bash
 git clone https://github.com/ThiagoZamprognioBahia/laravel-cep-service
+
+
+### instale as dependências:
+
+'''bash
+composer install
+
+### Uso da API
+
+Certifique-se de que o ambiente esteja configurado corretamente antes de utilizar a API. Após a instalação das dependências, você pode rodar o servidor Laravel localmente.
+
+'''bash
+php artisan serve
