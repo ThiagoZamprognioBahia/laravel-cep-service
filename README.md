@@ -24,5 +24,8 @@ composer install
 
 Certifique-se de que o ambiente esteja configurado corretamente antes de utilizar a API. Após a instalação das dependências, você pode rodar o servidor Laravel localmente.
 
+### Copie e cole esse codigo no .env
+VIACEP_URL=https://viacep.com.br/ws/
+
 '''bash
 php artisan serve
