@@ -20,7 +20,7 @@ class ApiViaCepController extends Controller
     
         try {
             $apiUrl = Config::get('services.viacep.url');
-            $response = Http::get($apiUrl . $cep . '/json');
+            $response = Http::withoutVerifying()->get($apiUrl . $cep . '/json');
             $data = $response->json();
             if (isset($data['erro']) && $data['erro'] == true) {
                 return response()->json(['message' => 'Esse CEP não existe.'], 404);
